@@ -1,23 +1,5 @@
 
 
-// function example() {
-//     let btn = document.querySelector("#choose");
-//     let randomNumber = Math.ceil(Math.random() * 100);
-//     btn.onclick = function() {
-//        let givenNumber = document.querySelector("#inputNumber").value;
-//        let valueInt = parseInt(givenNumber, 100);
-//        console.log(randomNumber, givenNumber);
-//     };
-//  }
-//  example();
-
-// function getRandomArbitrary(min, max) {
-//     return Math.random() * (max - min) + min;
-// }
-
-
-
-
 
 function guessNumber(){
 
@@ -38,6 +20,10 @@ function guessNumber(){
 
             alert("Awesome! You number " + givenNumber + " was correct.");
 
+        } else if (givenNumber - randomNumber == 1 || givenNumber - randomNumber == -1){
+
+            alert("So close, but you just missed it! Are you in a class that started on the thirteenth or what?");
+        
         } else {
 
             alert(`Bummer... You guessed ${givenNumber} and the secret number was ${randomNumber}.`);
