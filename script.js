@@ -1,20 +1,13 @@
-
-
-
 function guessNumber(){
-
-   
-    
 
     document.getElementById("choose").addEventListener("click", function(){
 
-
-
+    
     let givenNumber = document.querySelector("#inputNumber").value;
 
     let randomNumber = Math.floor(Math.random() * 22) + 1; 
 
-    
+    console.log(givenNumber);
 
         if (randomNumber == givenNumber){
 
@@ -30,8 +23,8 @@ function guessNumber(){
 
         };
 
-        console.log(randomNumber, givenNumber);
-
+         
+        console.log(givenNumber,randomNumber);
 
     });
    

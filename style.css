@@ -4,7 +4,7 @@ body{
 }
 
 label{
-    color:#5a3f11;
+    color: #5a3f11;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -12,8 +12,8 @@ label{
 
 button{
     background-color:#faf4f4 ;
-    border: 1px solid #5a3f11;
-    color: #5a3f11;
+    border: 1px solid #ef962d;
+    color: #ef962d;
     padding: 10px 10px;
     font-weight: bold;
     font-size: 20px;
