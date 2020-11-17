@@ -1,0 +1,28 @@
+body{
+    background-color: #faf4f4;
+    line-height: 60px;
+}
+
+label{
+    color:#5a3f11;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+button{
+    background-color:#faf4f4 ;
+    border: 1px solid #5a3f11;
+    color: #5a3f11;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container{ 
+    padding: 50px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: 2px dotted  #5a3f11; 
+}
