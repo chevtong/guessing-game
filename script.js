@@ -1,4 +1,4 @@
-function guessNumber(){
+(function (){
 
     document.getElementById("choose").addEventListener("click", function(){
 
@@ -7,13 +7,14 @@ function guessNumber(){
 
     let randomNumber = Math.floor(Math.random() * 22) + 1; 
 
-    console.log(givenNumber);
+
+    // console.log(givenNumber);
 
         if (randomNumber == givenNumber){
 
             alert("Awesome! You number " + givenNumber + " was correct.");
 
-        } else if (givenNumber - randomNumber == 1 || givenNumber - randomNumber == -1){
+        }else if (givenNumber - randomNumber == 1 || givenNumber - randomNumber == -1){
 
             alert("So close, but you just missed it! Are you in a class that started on the thirteenth or what?");
         
@@ -24,12 +25,11 @@ function guessNumber(){
         };
 
          
-        console.log(givenNumber,randomNumber);
+        // console.log(givenNumber,randomNumber);
 
     });
    
 
-};
+}());
 
 
-guessNumber();

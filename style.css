@@ -1,19 +1,23 @@
 body{
-    background-color: #faf4f4;
     line-height: 60px;
 }
 
 label{
-    color: #5a3f11;
+    color: #EC4D37;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+input{
+    padding: 20px;
+    margin: 10px;
+}
+
 
 button{
-    background-color:#faf4f4 ;
-    border: 1px solid #ef962d;
-    color: #ef962d;
+    background-color: #1D1B1B ;
+    border: 1px solid #EC4D37;
+    color: #EC4D37;
     padding: 10px 10px;
     font-weight: bold;
     font-size: 20px;
@@ -24,5 +28,6 @@ button{
     margin: auto;
     width: 50%;
     text-align: center;
-    border: 2px dotted  #5a3f11; 
+    border: 2px dotted  #1D1B1B; 
+    background-color: #1D1B1B;
 }
