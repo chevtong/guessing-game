@@ -1,13 +1,13 @@
-(function (){
 
-    document.getElementById("choose").addEventListener("click", function(){
+
+    document.getElementById("submit").addEventListener("click", function(){
 
     
     let givenNumber = document.querySelector("#inputNumber").value;
 
     let randomNumber = Math.floor(Math.random() * 22) + 1; 
 
-
+ 
     // console.log(givenNumber);
 
         if (randomNumber == givenNumber){
@@ -30,6 +30,6 @@
     });
    
 
-}());
+
 
 
